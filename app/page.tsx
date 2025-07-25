@@ -79,10 +79,10 @@ export default function FixlyLanding() {
 
   const handleDownload = () => {
     // Replace this path with your actual zip file path
-    const zipFilePath = "/fixly-extension.zip"
+    const zipFilePath = "/fixly.zip"
     const link = document.createElement("a")
     link.href = zipFilePath
-    link.download = "fixly-extension.zip"
+    link.download = "fixly.zip"
     document.body.appendChild(link)
     link.click()
     document.body.removeChild(link)
